@@ -1,11 +1,11 @@
 function setup() { //runs one time
 createCanvas(720, 720);
-background(0,0, 200); //hot pink
+background(0,0, 200); //navy blue
 }
 
 function draw() {//loop
-fill(0,200,255);//blue
-strokeWeight(20);//stroke 8 pixels
+fill(0,200,255);//light blue
+strokeWeight(20);//stroke 20 pixels
 translate(60,60);// shifts down + right 60 pixels
 quad (0,0,
       300, 0,
