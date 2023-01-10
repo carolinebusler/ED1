@@ -1,9 +1,9 @@
 //customize # of squares in grid
 
-/*let gif;
+let gif;
 function preload(){
-  gif = loadImage(assets/name.gif);
-}*/
+  gif = loadImage('assets/blueTriangles.gif');
+}
 
 
 function setup() { //runs one time
@@ -21,7 +21,7 @@ var sideLen = windowWidth/num; //side length
 
 for (var y=0; y<windowWidth; y=y+sideLen){//builds columns
 for (var x=0; x<windowWidth; x=x+sideLen){//builds row
-  //image (gif, x,y, windowWidth/num, windowWidth/num);
+image (gif, x,y, windowWidth/num, windowWidth/num);
 }
 }
 
