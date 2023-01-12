@@ -2,7 +2,7 @@
 
 let gif;
 function preload(){
-  gif = loadImage('assets/blueTriangles.gif');
+  gif = loadImage('assets/blueTrianglesREAL.gif');
 }
 
 
